@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "My thoughts about static site generators"
+date:   2017-11-12 14:58:44 +0100
+categories: jekyll update
+---
+Hejsan Där

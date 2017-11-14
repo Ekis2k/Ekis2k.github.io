@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Blog Post Numero Three"
-date:   2017-11-10 14:58:44 +0000
+title:  "robots.txt and how i did it"
+date:   2017-11-14 12:22:44 +0100
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
