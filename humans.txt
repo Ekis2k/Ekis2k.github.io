@@ -1,0 +1,20 @@
+# Info
+
+author: Elias Ekman
+email: ee222yi@lnu.student.se
+twitter: eliasalmighty
+location: Kalmar
+course: 1dv022
+
+# Thanks
+
+school: LNU
+
+# Tech
+
+jekyll
+cloud9
+html5
+SCSS
+JS
+
