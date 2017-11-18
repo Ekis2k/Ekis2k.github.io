@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "About pre-compiling CSS"
+date:   2017-11-10 14:58:44 +0100
+categories: blogpost
+---
+
+Preprocessing CSS and what it is?
+
+Preprocessing CSS is a new way to structuring CSS code. There are many different preprocessors for CSS. SASS or SCSS and there is LESS and stylus. All of these get rewritten to regular CSS code but provide a different 
+way(more easy) to write the code. They make it possible to use functions, nesting and mixins to prevent repetetivness.
+
+{% highlight ruby %}
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+{% endhighlight %}
+
+This is the way to use the SCSS syntax. So instead of typing the color you want everywhere you can just create a variable and give it the color. This way the color can be used without remebering the colorcode.
+
+Coming from the course Webbteknik1 i had my idea of how to use CSS so at the beginning I thought preprocessing CSS was very wierd. But the more I used it the more I started to understand the benefits. I mean dividing your code in to 
+more is just going to be better on a bigger website, you really need to have control and structure. The problem that can be(for me atleast) is that you spend much time looking where you did something wrong. 
+I think you can "get lost" and maybe type something at the wrong place.
+Overall trying this out has been an eye opener for how sites work.
+
