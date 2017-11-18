@@ -16,7 +16,7 @@
 title: Examination 1
 email: ee222yi@lnu.student.se
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my awesome site about examination one in 1dv022. I hope this site is going to work well and you enjoi your stay here.
+  This is my awesome web page for examination one in 1dv022. I hope this web page is going to work well and you enjoi your stay here. I've use jekyll and cloud9 to work with this web page.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:8080/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eliasalmighty
