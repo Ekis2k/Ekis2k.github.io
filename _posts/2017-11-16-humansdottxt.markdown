@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "humans.txt"
+title: "Humans.txt"
 date: 2017-11-16 15:37 +0100
 categories: blogpost
 ---
