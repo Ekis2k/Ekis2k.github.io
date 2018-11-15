@@ -1,0 +1,27 @@
+footer {
+    text-align: center;
+    .wrapper {
+      border-top: 1px solid $text-color;
+      margin: 4em auto;
+      padding-top: 1em;
+      width: 80%;
+      max-width: 800px;
+    }
+  
+    ul,
+    ul li {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+    
+    ul li {
+      margin: 0 .75em;
+      margin-bottom: 1em;
+  
+      .label {
+        margin-left: .4em;
+        color: $text-color;
+      }
+    }
+  }

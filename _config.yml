@@ -2,13 +2,13 @@
 title: Examination 1 | by Elias Ekman
 description: "A minimal blog template, build with Jekyll."
 url: "http://Ekis2k.github.io"
-author:
-  name: "Elias Ekman"
-  email: "ee222yi2student.lnu.se"
-  url: "http://www.github.com/Ekis2k"
-
+email: ee222yi@student.lnu.se
+twitter_username: eliasalmighty
+github_username:  Ekis2k
+facebook_username: Elias Ekman
+location: Kalmar
 # Build settings
-baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -26,11 +26,11 @@ defaults:
       layout: "post"
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
 
 # Custom variables
-version: "1.1.0"
+version: "1.0"
 
 # Options
 custom_header: false
