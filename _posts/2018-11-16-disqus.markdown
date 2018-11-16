@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Disqus"
+date: 2017-11-18 21:01 +0100
+categories: blogpost
+---
+
+En av lösningarna på problemet att spara kommentarer på sin sida är att använda sig av Disqus. Disqus är en tredjepartslösning som gör det åt dig.
+
+**Hur man installerar Disqus på sin blogg.**
+
+---
+
+1. Skapa konto på deras sida
+2. Fyll i dina uppgifter
+3. Välj vilken plattform du använder (Jekyll här)
+4. Lägg `comments: true` i din _layouts YAML front matter där du vill ha kommentarerna
+5. Klistra in den genererade koden från Disqus i en separat _include
+
+---
+
+Det finns lite saker i den genererade koden man var tvungen att ändra på så det skulle funka vilket jag visar nedan med pilar.
+
+```
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = '{{ page.url | absolute_url }}';  <--Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = '{{ page.url | absolute_url }}'; <-- Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://examination1.disqus.com/embed.js'; <-- ÄNDRA TILL DITT NAMN SOM DU VALDE I STEG 2
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+```
