@@ -12,7 +12,7 @@ Humans.txt är en simpel textfil som ger ära till vilka som skapat websidan. I 
 # Info
 
 author: Elias Ekman
-email: ee222yi@lnu.student.se
+email: ee222yi@student.lnu.se
 twitter: eliasalmighty
 location: Kalmar
 course: 1dv022

@@ -4,7 +4,7 @@ title:  "Robots.txt and how i did it"
 date:   2018-11-19 12:15:44 +0100
 categories: blogpost
 ---
-Robot.txt är en textfil som anger vad sökmotorer som söker efter när de söker efter din webbsida. Sökmotorer letar automatiskt efter din robots.txt för att se vad du har tillåtit.
+Robot.txt är en textfil som anger vad sökmotorer söker efter när de söker efter din webbsida. Sökmotorer letar automatiskt efter din robots.txt för att se vad du har tillåtit.
 Den här filen är viktig för att lägga in din rotkatalog.
 
 Min Robots.txt ser ut som följande.

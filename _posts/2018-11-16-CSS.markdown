@@ -7,7 +7,7 @@ categories: blogpost
 
 Preprocessing CSS och vad är det?
 
-Preprocessing CSS är ett nytt sätt att strukturera CSS-kod. Det finns många olika preprocessors för CSS. SASS, SCSS och det finns LESS och stylus. Alla dessa skrivs om till vanlig CSS-kod men ger ett annat sätt (lättare) att skriva koden. De gör det möjligt att använda funktioner, nestning och mixins för att förhindra repetetivitet.
+Preprocessing CSS är ett nytt sätt att strukturera CSS-kod. Det finns många olika preprocessors för CSS. SASS, SCSS och det finns LESS och stylus. Alla dessa skrivs om till vanlig CSS-kod men ger ett annat sätt (lättare) att skriva koden. Det gör det möjligt att använda funktioner, nestning och mixins för att förhindra repetetivitet.
 
 ```
 $font-stack:    Helvetica, sans-serif;
@@ -21,7 +21,7 @@ body {
 
 Det här är sättet att använda SCSS-syntaxen. Så istället för att skriva färgen du vill ha överallt kan du bara skapa en variabel och ge den färgen. På så sätt kan färgen användas utan att färgkoden omarbetas.
 
-Kommer från kursen Webbteknik1 var min uppfattning om hur man använder CSS så i början trodde jag att prerocessing av CSS var väldigt svårt. Men ju mer jag använde det desto mer började jag förstå fördelarna. Jag menar att du delar in din kod i
+Efter det jag lärt mig från kursen Webbteknik1 var min uppfattning om hur man använder CSS på ett visst sätt. Så i början trodde jag att prerocessing av CSS var väldigt svårt. Men ju mer jag använde det desto mer började jag förstå fördelarna. Jag menar att du delar in din kod i
 fler filer kommer bara att bli bättre på en större webbplats, du behöver verkligen ha kontroll och struktur. Det problem som kan vara (för mig iaf) är att du spenderar mycket tid på att leta var du gjorde något fel.
 Jag tror att du kan "gå vilse" och kanske skriva något på fel ställe.
 Detta ha varit ett ögonöppnare för hur webbplatser fungerar.
