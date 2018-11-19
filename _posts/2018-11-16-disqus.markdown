@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disqus"
-date: 2017-11-18 21:01 +0100
+date: 2018-11-18 21:01 +0100
 categories: blogpost
 ---
 
@@ -11,7 +11,7 @@ En av lösningarna på problemet att spara kommentarer på sin sida är att anv�
 
 ---
 
-1. Skapa konto på deras sida
+1. Skapa konto på deras sida. -> [Disqus](https://disqus.com/)
 2. Fyll i dina uppgifter
 3. Välj vilken plattform du använder (Jekyll här)
 4. Lägg `comments: true` i din _layouts YAML front matter där du vill ha kommentarerna

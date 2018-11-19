@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Humans.txt"
-date: 2017-11-16 15:37 +0100
+date: 2018-11-16 15:37 +0100
 categories: blogpost
 ---
 
@@ -24,7 +24,7 @@ school: LNU
 # Tech
 
 jekyll
-cloud9
+VSC
 html5
 SCSS
 JS
