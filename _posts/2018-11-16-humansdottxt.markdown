@@ -5,10 +5,10 @@ date: 2018-11-16 15:37 +0100
 categories: blogpost
 ---
 
-Humans.txt is a simple text file with the credits to who made your web page. You can type whatever you want in the file really but it's used as a way to present who were involved.
-Humans.txt site has some examples if you dont know what to write, so that's what i did. I typed my information and what i used to create this web page.
+Humans.txt är en simpel textfil som ger ära till vilka som skapat websidan. I filen kan du skriva vad du egentilgen vill men den används generellt till att visa vilka personer och hjälpmedel som varit involverat.
+[Humans.txt](http://humanstxt.org/) sida har många exempel om man inte vet vad man ska skriva så där tog jag hjälp. Jag skrev min information och vad jag använde som hjälpmedel att skapa denna sidan.
 
-{% highlight ruby %}
+```
 # Info
 
 author: Elias Ekman
@@ -29,4 +29,4 @@ html5
 SCSS
 JS
 
-{% endhighlight %}
+```

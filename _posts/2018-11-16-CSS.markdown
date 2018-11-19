@@ -5,12 +5,11 @@ date:   2018-11-19 11:32:44 +0100
 categories: blogpost
 ---
 
-Preprocessing CSS and what it is?
+Preprocessing CSS och vad är det?
 
-Preprocessing CSS is a new way to structuring CSS code. There are many different preprocessors for CSS. SASS or SCSS and there is LESS and stylus. All of these get rewritten to regular CSS code but provide a different 
-way(more easy) to write the code. They make it possible to use functions, nesting and mixins to prevent repetetivness.
+Preprocessing CSS är ett nytt sätt att strukturera CSS-kod. Det finns många olika preprocessors för CSS. SASS, SCSS och det finns LESS och stylus. Alla dessa skrivs om till vanlig CSS-kod men ger ett annat sätt (lättare) att skriva koden. De gör det möjligt att använda funktioner, nestning och mixins för att förhindra repetetivitet.
 
-{% highlight ruby %}
+```
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -18,12 +17,11 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
-{% endhighlight %}
+```
 
-This is the way to use the SCSS syntax. So instead of typing the color you want everywhere you can just create a variable and give it the color. This way the color can be used without remebering the colorcode.
+Det här är sättet att använda SCSS-syntaxen. Så istället för att skriva färgen du vill ha överallt kan du bara skapa en variabel och ge den färgen. På så sätt kan färgen användas utan att färgkoden omarbetas.
 
-Coming from the course Webbteknik1 i had my idea of how to use CSS so at the beginning I thought preprocessing CSS was very wierd. But the more I used it the more I started to understand the benefits. I mean dividing your code in to 
-more is just going to be better on a bigger website, you really need to have control and structure. The problem that can be(for me atleast) is that you spend much time looking where you did something wrong. 
-I think you can "get lost" and maybe type something at the wrong place.
-Overall trying this out has been an eye opener for how sites work.
-
+Kommer från kursen Webbteknik1 var min uppfattning om hur man använder CSS så i början trodde jag att prerocessing av CSS var väldigt svårt. Men ju mer jag använde det desto mer började jag förstå fördelarna. Jag menar att du delar in din kod i
+fler filer kommer bara att bli bättre på en större webbplats, du behöver verkligen ha kontroll och struktur. Det problem som kan vara (för mig iaf) är att du spenderar mycket tid på att leta var du gjorde något fel.
+Jag tror att du kan "gå vilse" och kanske skriva något på fel ställe.
+Detta ha varit ett ögonöppnare för hur webbplatser fungerar.

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "My thoughts about static site generators"
+date:   2018-11-19 12:23:44 +0100
+categories: blogpost
+---
+
+Skapandet av den här bloggen använde jag mig av den statiska webbplatsgeneratorn jekyll. Jekyll var problematisk för mig först då jag inte visste hur jag skulle arbeta med det. Det tog mig lite tid att förstå hur det fungerade.
+När jag förstod grunderna så släppte det för mig, det är väldigt lätt att arbeta med när alla grunderna fanns där att arbeta med. Det fanns många teman som du kunde välja melland och du fick även ett starttema att arbeta med. Minima heter det temat vilket var väldigt basic men ändå ganska fint.
+
+Ett stort plus som jag kommer ta med mig är arbetssättet med markdown filer. Detta tycker jag var riktigt skönt och mycket lätt syntax att lära sig. Behöver man lite hjälp så är det bara en snabb googling iväg och allt blir snygg och prydligt.
+
+## När ska man använda SSG?
+
+---
+
+Om man inte behöver information från de olika användarna och inte bhöver en data bar är SSG superbra. Men om användarna skall kunna logga in eller skapa ett konto så bör man använda sig av en annan lösning.
